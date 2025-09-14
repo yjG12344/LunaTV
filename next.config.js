@@ -5,7 +5,7 @@ const nextConfig = {
 };
 module.exports = nextConfig;
 
-/*const nextConfig = {
+const nextConfig = {
   output: 'standalone',
   eslint: {
     dirs: ['src'],
@@ -80,4 +80,4 @@ const withPWA = require('next-pwa')({
   skipWaiting: true,
 });
 
-module.exports = withPWA(nextConfig);*/
+module.exports = withPWA(nextConfig);
