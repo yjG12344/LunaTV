@@ -1,7 +1,11 @@
 /** @type {import('next').NextConfig} */
 /* eslint-disable @typescript-eslint/no-var-requires */
-
 const nextConfig = {
+  output: 'export',
+};
+module.exports = nextConfig;
+
+/*const nextConfig = {
   output: 'standalone',
   eslint: {
     dirs: ['src'],
@@ -76,4 +80,4 @@ const withPWA = require('next-pwa')({
   skipWaiting: true,
 });
 
-module.exports = withPWA(nextConfig);
+module.exports = withPWA(nextConfig);*/
