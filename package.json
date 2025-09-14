@@ -16,7 +16,8 @@
     "format:check": "prettier -c .",
     "gen:manifest": "node scripts/generate-manifest.js",
     "postbuild": "echo 'Build completed - sitemap generation disabled'",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "export": "next export"
   },
   "dependencies": {
     "@dnd-kit/core": "^6.3.1",
